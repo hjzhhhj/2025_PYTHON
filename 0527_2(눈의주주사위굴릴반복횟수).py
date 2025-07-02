@@ -7,4 +7,4 @@ def dice_list(sides, count):
         answer.append(a)  
     return answer
 
-print(dice_list(6, 5))
+print(dice_list(6, 3))
