@@ -98,19 +98,19 @@
 # a = list(a)
 # print(a)
 
-# tup1 = (1, 2, 3)
-# tup2 = (4, 5, 6)
-# tup3 = tup1 + tup2
+tup1 = (1, 2, 3)
+tup2 = (4, 5, 6)
+tup3 = tup1 + tup2
 
-# print(tup3[2:5])
+print(tup3[2:5])
 
-# tup1[3] = tup2[1]
+tup1[3] = tup2[1]
 
-# for i, v in enumerate(tup3):
-#     print(i, v)
+for i, v in enumerate(tup3):
+    print(i, v)
 
-# a, b, c = tup1
-# print(a, b, c)
+a, b, c = tup1
+print(a, b, c)
 
 # dessert = [
 #     {"name" : "candy", "cnt" : 2},
