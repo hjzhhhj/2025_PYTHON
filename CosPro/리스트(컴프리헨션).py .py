@@ -13,4 +13,3 @@ print()
 
 for i in data:
     print(i, end=' ')
-print()
