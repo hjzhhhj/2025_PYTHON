@@ -1,9 +1,9 @@
 class Car:
     count = 0
     def __init__(self, type, speed):
-    self.type = type
-    self.speed = speed
-    Car.count += 1
+        self.type = type
+        self.speed = speed
+        Car.count += 1
     
     @classmethod
     def get_count(cls):
